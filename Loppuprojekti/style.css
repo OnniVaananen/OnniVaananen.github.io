@@ -15,8 +15,10 @@ body {
 .ylapalkki{
 	display:flex;
 	border: 10px solid gold;
-    padding: 30px;
 	background-color: gold;
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
 
 }
 .pill{
