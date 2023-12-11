@@ -1,0 +1,147 @@
+html {
+}
+
+body {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 700px;
+    text-align: center;
+    margin: 50px;
+}
+
+.ylapalkki {
+    display: flex;
+    border: 10px solid gold;
+    background-color: gold;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+.pill {
+    font-weight: 600;
+    font-size: 1.8rem;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans', serif;
+    display: block;
+    margin: 0.1rem 0;
+    padding: 0.1rem 1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 50%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.pill {
+    background: gold;
+    color: black;
+}
+
+    .pill:hover {
+        background: darkgoldenrod;
+    }
+
+a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+}
+
+    a:hover {
+        background: darkgoldenrod;
+    }
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.logontausta {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.BANNERI {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+.logontausta {
+    max-width: 1200px;
+    margin: auto;
+}
+.liputotteluunlogo {
+    width: 100px;
+    height: 100px;
+}
+.ostalippuja {
+    font-weight: 600;
+    font-size: 1.8rem;
+    outline: none;
+    font-family: 'Open Sans', serif;
+    display: block;
+    margin: 0.1rem 0;
+    padding: 0.1rem 1rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.ostalippuja {
+    background: green;
+    color: black;
+    border-color:black;
+}
+    .ostalippuja:hover {
+        background: chartreuse;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+.vierasottelu{
+    background-color: gold;
+    color: black;
+}
+.kotiottelu{
+    background-color: darkblue;
+    color: white;
+}
+.uutispalsta {
+    font-size: 25px;
+    background-color: darkblue;
+    border: 5px;
+    color:white;
+}
+.hakimi {
+    width: 500px;
+    height: 300px;
+}
+.messi {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.tayteteksti {
+    background-color: gold;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.taytelogo {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
