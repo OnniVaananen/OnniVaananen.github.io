@@ -136,3 +136,9 @@ h2 {
 .bootstrapbody{
 	background-color: black;
 }
+@media  only screen and (max-width: 685px){
+	.logontausta{
+	width: 100%;
+	}
+}
+
